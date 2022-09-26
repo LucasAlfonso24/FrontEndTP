@@ -1,0 +1,29 @@
+body {
+  background-color: #48C9B0;
+  color: #873600;
+  font-size: large;
+  font-style: oblique;
+}
+
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.parrafo {
+  color: #5B2C6F;
+}
+
+.subtitulo {
+  color: #E74C3C;
+}
+
+#titulocolor {
+  color: #008000;
+}
+
+.imagen {
+  width:360px;
+  height:360px;
+}
