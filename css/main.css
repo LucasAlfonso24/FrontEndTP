@@ -27,3 +27,60 @@ h1 {
   width:360px;
   height:360px;
 }
+
+.imagen1 {
+  width: 60px;
+  height: 60px;
+}
+
+.imagen2 {
+  width: 60px;
+  height: 60px;
+}
+
+.imagen3 {
+  width: 60px;
+  height: 60px;
+}
+
+.imagen4 {
+  width: 60px;
+  height: 60px;
+}
+
+
+header {
+  width: auto;
+  height: auto;
+}
+
+nav {
+  width: auto;
+  height: auto;
+  text-align: left;
+}
+
+section {
+  background-color: cyan;
+  border: 1px solid black;
+  width: auto;
+  height: auto;
+}
+
+aside {
+  width: auto;
+  height: auto;
+  text-align: right;
+}
+
+footer {
+  background-color: blue;
+  border: 1px solid black;
+  width: auto;
+  height: auto;
+  text-align: right;
+}
+
+.float {
+  float: left;
+}
