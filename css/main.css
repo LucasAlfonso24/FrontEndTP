@@ -9,6 +9,7 @@ body {
 h1 {
   text-align: center;
   text-decoration: underline;
+  font-size: 50px;
 }
 
 .parrafo {
@@ -28,59 +29,101 @@ h1 {
   height:360px;
 }
 
+.video {
+  width: 480px;
+  height: 320px;
+}
+
 .imagen1 {
   width: auto;
-  height: 50px;
+  height: 60px;
 }
 
 .imagen2 {
   width: auto;
-  height: 50px;
+  height: 60px;
 }
 
 .imagen3 {
   width: auto;
-  height: 50px;
+  height: 60px;
 }
 
 .imagen4 {
   width: auto;
-  height: 50px;
+  height: 60px;
 }
 
+.imagen5 {
+  width: auto;
+  height: 60px;
+}
 
 header {
-  width: auto;
+  background-color: blue;
+  width: 100%;
   height: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 nav {
   width: auto;
   height: auto;
   text-align: left;
+  display: flex;
+  justify-content: space-between;
 }
 
 section {
   background-color: cyan;
   border: 1px solid black;
-  width: auto;
+  width: 80%;
   height: auto;
+  float: left;
 }
 
 aside {
   width: auto;
   height: auto;
-  text-align: right;
+  float: right;
 }
 
 footer {
   background-color: blue;
   border: 1px solid black;
-  width: auto;
+  width: 100%;
   height: auto;
-  text-align: right;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .float {
   float: left;
+}
+
+.iconos {
+  display: flex;
+  text-align: center;
+
+}
+
+.logo {
+  width: 200px;
+  height: 160px;
+}
+
+.copyright {
+
+ color: black;
+
+}
+
+.videos {
+  display: flex;
+  justify-content: space-between;
 }
