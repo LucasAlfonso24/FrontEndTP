@@ -4,6 +4,7 @@ body {
   font-size: 1rem;
 }
 
+
 @font-face {
   font-family: "segoe";
   src: url("../fuentes/segoepr.ttf")
@@ -15,6 +16,7 @@ body {
 src: url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100&display=swap")
 format('truetype');
 }
+
 
 h1 {
   text-align: center;
@@ -43,6 +45,7 @@ h1 {
 .video {
   width: 480px;
   height: 320px;
+  display: none;
 }
 
 .videos {
@@ -110,13 +113,7 @@ section {
   font-family: "segoe";
 }
 
-aside {
-  background-color: red;
-  border: 1px solid black;
-  width: 22%;
-  height: auto;
-  float: right;
-}
+
 
 footer {
   background-color: blue;
@@ -161,4 +158,35 @@ background-color: white;
  color: black;
 font-size: 1em;
 
+}
+
+
+@media screen and (max-width:575px) {
+body {
+  background: brown;
+  }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+body {
+  background: grey;
+  }
+}
+
+@media (orientation: landscape) and (max-width:767px) {
+  h1 {
+    color: red;
+  }
+}
+
+@media (max-width:767px) {
+.video {
+   display: inline-flex;
+  }
+}
+
+@media (min-width:992px) {
+.imagen {
+  display: none;
+  }
 }
