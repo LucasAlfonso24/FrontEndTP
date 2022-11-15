@@ -2,11 +2,14 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-<meta name="description" content="Receta para preparar un plato de ceviche peruano">
-<meta name="keywords" content="Comida, Receta, Ceviche">
-<meta name="author" content="Lucas Alfonso">
+    <meta name="description" content="Receta para preparar un plato de ceviche peruano">
+    <meta name="keywords" content="Comida, Receta, Ceviche">
+    <meta name="author" content="Lucas Alfonso">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="./css/main.css">
+        <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
    <title>Ceviche Peruano</title>
 
@@ -16,7 +19,7 @@
     <header>
       <img class="logo" src="./imagenes/cevichelogo.png" alt="imagen de logo">
 
-      <h1 style="background-color:blue;"> Ceviche </h1>
+      <h1 class="titulo1" style="background-color:blue;"> Ceviche </h1>
 
       <div class="iconos">
 
@@ -28,17 +31,27 @@
 
      </div>
 
-
     </header>
 
-    <nav>
 
-<a href="https://www.recetasgratis.net/receta-de-ceviche-peruano-18147.html" target="_blank" class="itemnav">Página de ceviche peruano</a>
-<a href="https://www.recetasderechupete.com/cebiche-clasico-peruano-receta-paso-a-paso/11442/" target="_blank" class="itemnav">Página de ceviche clásico peruano</a>
-<a href="https://www.recetasgratis.net/receta-de-ceviche-peruano-con-mango-y-pescado-55324.html" target="_blank" class="itemnav">Página de ceviche peruano con mango y pescado</a>
-<a href="https://www.mexicoenmicocina.com/receta-de-ceviche-mexicano/" target="_blank" class="itemnav">Página de ceviche mexicano</a>
 
-   </nav>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">CevPer</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          <a class="nav-link" href="#">Blog</a>
+          <a class="nav-link" href="#">Contactos</a>
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
 
 
 <section>
@@ -91,6 +104,52 @@
 
 </video>
 
+</div>
+
+<br><br><br><br>
+
+<h1>Otras Recetas:</h1>
+<div class="container">
+ <div class="row">
+  <div class="col-sm-12 col-md-6 col-lg-3">
+   <div class="card" >
+    <img src="./imagenes/cevicheperuano2.png" class="card-img-top" alt="Imagen de ceviche">
+     <div class="card-body">
+      <h5 class="card-title">Cevivhe Peruano</h5>
+      <p class="card-text">Una receta de ceviche peruano que intenta rescatar todo lo tradicional del delicioso ceviche original del Perú.</p>
+      <a href="https://www.recetasgratis.net/receta-de-ceviche-peruano-18147.html" target="_blank" class="btn btn-primary">Ver Receta</a>
+     </div>
+   </div>
+ </div>
+<div class="col-sm-12 col-md-6 col-lg-3">
+ <div class="card" >
+  <img src="./imagenes/cevichemexicano.png" class="card-img-top" alt="Imagen de ceviche">
+  <div class="card-body">
+    <h5 class="card-title">Ceviche mexicano</h5>
+    <p class="card-text">En esta oportunidad compartiremos contigo una receta de ceviche mexicano.</p>
+    <a href="https://www.mexicoenmicocina.com/receta-de-ceviche-mexicano/" target="_blank" class="btn btn-primary">Ver Receta</a>
+  </div>
+ </div>
+</div>
+<div class="col-sm-12 col-md-6 col-lg-3">
+ <div class="card" >
+  <img src="./imagenes/cevicheperuano3.png" class="card-img-top" alt="Imagen de ceviche">
+  <div class="card-body">
+    <h5 class="card-title">Ceviche clásico peruano</h5>
+    <p class="card-text">Te invitamos a que descubras cómo hacer ceviche peruano al estilo clásico, con corvina, de forma fácil y accesible para todos los niveles.</p>
+    <a href="https://www.recetasderechupete.com/cebiche-clasico-peruano-receta-paso-a-paso/11442/" target="_blank" class="btn btn-primary">Ver Receta</a>
+  </div>
+ </div>
+</div>
+<div class="col-sm-12 col-md-6 col-lg-3">
+ <div class="card" >
+  <img src="./imagenes/cevicheperuano4.png" class="card-img-top" alt="Imagen de ceviche">
+  <div class="card-body">
+    <h5 class="card-title">Ceviche peruano con mango y pescado</h5>
+    <p class="card-text">Mira esta receta de ceviche peruano con mango y pescado, te aseguro que con ella podrás sorprender a todos tus invitados o si cocinas solo para ti, pues anímate y date un gusto con este exquisito plato.</p>
+    <a href="https://www.recetasgratis.net/receta-de-ceviche-peruano-con-mango-y-pescado-55324.html" target="_blank" class="btn btn-primary">Ver Receta</a>
+  </div>
+ </div>
 </div>
 
 </section>
