@@ -1,7 +1,8 @@
+
 body {
-  background-color: #48C9B0;
-  color: #873600;
-  font-size: 1rem;
+background-color:var(--color-fondo);
+color:var(--color-fuente) 
+font-size 1rem;
 }
 
 
@@ -26,6 +27,7 @@ h1 {
 }
 
 .titulo1 {
+  background-color: #ffffff00;
   text-align: center;
   text-decoration: underline;
   font-style: oblique;
@@ -87,8 +89,22 @@ h1 {
   height: 10vh;
 }
 
+.copy {
+  background-color: rgb(61, 61, 240);
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+.card-title{
+  color: #020303;
+}
+
+.card-text {
+  color: #020303;
+}
+
 header {
-  background-color: blue;
+  background-color: #ffffff00;
   width: 100%;
   height: auto;
   align-items: center;
@@ -106,7 +122,7 @@ nav {
 }
 
 section {
-  background-color: cyan;
+  background-color: transparent;
   width: 100%;
   height: auto;
   float: left;
@@ -136,6 +152,7 @@ footer {
 
 .iconos {
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
   font-size: 1rem;
 }
@@ -145,10 +162,57 @@ footer {
   height: 160px;
 }
 
-.copyright {
- color: black;
-font-size: 1em;
 
+.noche {
+  background-color: rgb(248, 244, 244);
+   border: none;
+   color: #020303;
+   font-size: 1.2rem;
+   font-weight: 500;
+   -webkit-transition: font-size 1s ease;
+  transition: font-size 1s ease;
+}
+
+.noche:hover{
+    font-size: 22px;
+}
+
+
+input[type="checkbox"] {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  background-color: #434343;
+  appearance: none;   /* Hides certain features of widgets */ 
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+} 
+
+input[type="checkbox"]:checked {
+  background-color: #04ac2e;
+}
+
+input[type="checkbox"]::before {
+   content: '';
+   position: absolute;
+   width: 16px;
+   height: 16px;
+   background-color: #f2f2f2;
+   border-radius: 50%;
+   top: 2px;
+   left: 2px;
+   transition: 0.7s ease;
+}
+
+input[type="checkbox"]:checked::before {
+  transform: translateX(20px);
+}
+
+.dark-mode {
+  background-color: #252525;
+  color: #f2f2f2;
 }
 
 
