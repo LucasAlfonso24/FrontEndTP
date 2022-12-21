@@ -1,5 +1,8 @@
 
 body {
+background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 background-color:var(--color-fondo);
 color:var(--color-fuente) 
 font-size 1rem;
@@ -48,12 +51,12 @@ h1 {
 }
 
 .imagen {
-  width:20vw;
-  height:40vh;
+  width: 20vw;
+  height: 40vh;
 }
 
 .video {
-  width: 480px;
+  width: 100%;
   height: 320px;
   display: none;
 }
@@ -115,7 +118,6 @@ header {
 }
 
 nav {
-  background-color: cyan;
   width: 100%;
   height: auto;
   font-family: "fira";
